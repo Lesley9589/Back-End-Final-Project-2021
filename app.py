@@ -24,7 +24,7 @@ CORS(app)
 
 @app.route('/')
 def landing():
-    return("<p> To view records add /show-accounts/ to url </p><p> Heroku link: </p>" )
+    return("<p> To view records add /show-accounts/ to url </p><p> Nettlify link:https://focused-blackwell-79c696.netlify.app/ </p>" )
 
 @app.route('/add-new/', methods=['POST'])
 def add_new():
